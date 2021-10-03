@@ -1,0 +1,36 @@
+
+header .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:black;
+    margin-top:20px;
+}
+
+
+header .header-content  {
+    max-width: 1250px;
+    
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding:  20px;
+    
+}
+
+header nav a:hover {
+    transition: .4s;
+    background: var(--main-site-color);
+    color: white;
+    width: 100%;
+}

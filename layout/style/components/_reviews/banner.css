@@ -1,0 +1,48 @@
+
+.banner {
+    padding: 100px 0 0 325px;
+}
+.banner .container{
+    float: left;
+    margin-right:100px;
+}
+
+.banner .banner__title {
+    color: black;
+    text-align: left;
+    font-size: 36px;
+}
+.banner .banner__title_text{
+    max-width:500px;
+    margin-top: 10px;
+}
+
+.banner .banner_container_button{
+    padding:10px;
+    background: #f70f22;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    max-width:225px;
+    text-align: center;
+    font-weight: bold;
+    margin-top:50px
+
+}
+.banner .banner_container_button a{
+    color: white;
+    font-size:var(--font-size-lg);
+    text-decoration: none;
+
+}
+    
+
+.banner .banner__title h2 {
+    text-transform: uppercase;
+}
+
+
+.banner .banner__list {
+    display: flex;
+    flex-wrap: wrap;
+}
